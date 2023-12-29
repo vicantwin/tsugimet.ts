@@ -1,11 +1,11 @@
-import { ANIME } from '../../src/providers';
+import { AnimeFox } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const animefox = new ANIME.AnimeFox();
+const animefox = new AnimeFox();
 
 test('returns a filled array of anime list', async () => {
-  const animefox = new ANIME.AnimeFox();
+  const animefox = new AnimeFox();
   const data = await animefox.search('Overlord IV');
   expect(data.results).not.toEqual([]);
 });

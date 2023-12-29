@@ -1,8 +1,8 @@
-import { ANIME } from '../../src/providers';
+import { Zoro } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const zoro = new ANIME.Zoro();
+const zoro = new Zoro();
 
 test('returns a filled array of anime list', async () => {
   const data = await zoro.search('Overlord IV');

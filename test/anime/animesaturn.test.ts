@@ -1,8 +1,8 @@
-import { ANIME } from '../../src/providers';
+import { AnimeSaturn } from '../../src/providers';
 
 jest.setTimeout(120000);
 
-const animesaturn = new ANIME.AnimeSaturn();
+const animesaturn = new AnimeSaturn();
 const animeName = 'Tokyo Revengers';
 
 test('returns a filled array of anime list', async () => {

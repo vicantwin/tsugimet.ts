@@ -9,15 +9,15 @@ const providers_1 = require("../providers");
  */
 exports.PROVIDERS_LIST = {
     ANIME: [
-        new providers_1.ANIME.NineAnime(),
-        new providers_1.ANIME.AnimeFox(),
-        new providers_1.ANIME.AnimePahe(),
-        new providers_1.ANIME.Bilibili(),
-        new providers_1.ANIME.Crunchyroll(),
-        new providers_1.ANIME.Anify(),
-        new providers_1.ANIME.Gogoanime(),
-        new providers_1.ANIME.Zoro(),
-        new providers_1.ANIME.Marin(),
+        new providers_1.NineAnime(),
+        new providers_1.AnimeFox(),
+        new providers_1.AnimePahe(),
+        new providers_1.Bilibili(),
+        new providers_1.Crunchyroll(),
+        new providers_1.Anify(),
+        new providers_1.Gogoanime(),
+        new providers_1.Zoro(),
+        new providers_1.Marin(),
     ],
 };
 //# sourceMappingURL=providers-list.js.map

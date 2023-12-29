@@ -1,8 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.VidMoly = exports.StreamWish = exports.Mp4Upload = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = exports.VizCloud = exports.SmashyStream = exports.StreamHub = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.ANIME = void 0;
+exports.VidMoly = exports.StreamWish = exports.Mp4Upload = exports.Filemoon = exports.BilibiliExtractor = exports.AsianLoad = exports.VizCloud = exports.SmashyStream = exports.StreamHub = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.Marin = exports.Zoro = exports.Gogoanime = exports.Anify = exports.Crunchyroll = exports.Bilibili = exports.AnimePahe = exports.AnimeFox = exports.NineAnime = void 0;
 const providers_1 = require("./providers");
-Object.defineProperty(exports, "ANIME", { enumerable: true, get: function () { return providers_1.ANIME; } });
+Object.defineProperty(exports, "NineAnime", { enumerable: true, get: function () { return providers_1.NineAnime; } });
+Object.defineProperty(exports, "AnimeFox", { enumerable: true, get: function () { return providers_1.AnimeFox; } });
+Object.defineProperty(exports, "AnimePahe", { enumerable: true, get: function () { return providers_1.AnimePahe; } });
+Object.defineProperty(exports, "Bilibili", { enumerable: true, get: function () { return providers_1.Bilibili; } });
+Object.defineProperty(exports, "Crunchyroll", { enumerable: true, get: function () { return providers_1.Crunchyroll; } });
+Object.defineProperty(exports, "Anify", { enumerable: true, get: function () { return providers_1.Anify; } });
+Object.defineProperty(exports, "Gogoanime", { enumerable: true, get: function () { return providers_1.Gogoanime; } });
+Object.defineProperty(exports, "Zoro", { enumerable: true, get: function () { return providers_1.Zoro; } });
+Object.defineProperty(exports, "Marin", { enumerable: true, get: function () { return providers_1.Marin; } });
 const providers_list_1 = require("./utils/providers-list");
 Object.defineProperty(exports, "PROVIDERS_LIST", { enumerable: true, get: function () { return providers_list_1.PROVIDERS_LIST; } });
 const extractors_1 = require("./extractors");

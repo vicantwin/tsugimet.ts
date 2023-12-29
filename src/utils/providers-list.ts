@@ -1,4 +1,14 @@
-import { ANIME } from '../providers';
+import {
+  NineAnime,
+  AnimeFox,
+  AnimePahe,
+  Bilibili,
+  Crunchyroll,
+  Anify,
+  Gogoanime,
+  Zoro,
+  Marin,
+} from '../providers';
 
 /**
  * List of providers
@@ -7,14 +17,14 @@ import { ANIME } from '../providers';
  */
 export const PROVIDERS_LIST = {
   ANIME: [
-    new ANIME.NineAnime(),
-    new ANIME.AnimeFox(),
-    new ANIME.AnimePahe(),
-    new ANIME.Bilibili(),
-    new ANIME.Crunchyroll(),
-    new ANIME.Anify(),
-    new ANIME.Gogoanime(),
-    new ANIME.Zoro(),
-    new ANIME.Marin(),
+    new NineAnime(),
+    new AnimeFox(),
+    new AnimePahe(),
+    new Bilibili(),
+    new Crunchyroll(),
+    new Anify(),
+    new Gogoanime(),
+    new Zoro(),
+    new Marin(),
   ],
 };

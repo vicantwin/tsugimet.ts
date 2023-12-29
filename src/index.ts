@@ -1,4 +1,14 @@
-import { ANIME } from './providers';
+import {
+  NineAnime,
+  AnimeFox,
+  AnimePahe,
+  Bilibili,
+  Crunchyroll,
+  Anify,
+  Gogoanime,
+  Zoro,
+  Marin,
+} from './providers';
 import { PROVIDERS_LIST } from './utils/providers-list';
 import {
   VizCloud,
@@ -58,7 +68,7 @@ import {
   ProxyConfig,
 } from './models';
 
-export { ANIME };
+export { NineAnime, AnimeFox, AnimePahe, Bilibili, Crunchyroll, Anify, Gogoanime, Zoro, Marin };
 export { PROVIDERS_LIST };
 export {
   Topics,
